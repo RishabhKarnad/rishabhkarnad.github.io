@@ -2,11 +2,14 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+# description: Some of the courses I've been involved in
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+### IIT Hyderabad
 
-Organize your courses by years, topics, or universities, however you like!
+- Teaching Assistant - CS5350 Bayesian Data Analysis (2024)
+- Teaching Assistant - AI1100 / ID1050 Artificial Intelligence (2024)
+- Teaching Assistant - CS5590 Foundations of Machine Learning (2023)
+- Teaching Assistant - AI1100 / ID1050 Artificial Intelligence (2023)
