@@ -8,14 +8,7 @@
         "location": {
             "address": "Indian Institute of Technology, Hyderabad",
             "countryCode": "IN"
-        },
-        "profiles": [
-            {
-                "network": "Twitter",
-                "username": "AlbertEinstein",
-                "url": "https://twitter.com/AlbertEinstein"
-            }
-        ]
+        }
     },
     "work": [
         {
