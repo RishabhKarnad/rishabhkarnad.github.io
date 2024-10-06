@@ -53,7 +53,7 @@ horizontal: false
 </div>
 
 <div class="picture-container">
-<p>I've been as busy as a cat</p>
+<p>I've been busier than a cat</p>
 {%
     include figure.liquid
     path="/assets/img/pictures/busy-as-a-cat.jpg"
