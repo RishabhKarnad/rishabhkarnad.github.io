@@ -31,6 +31,12 @@ body.sticky-bottom-footer {
   max-width: $max-content-width;
 }
 
+.picture-container {
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 // Profile
 .profile {
   img {
