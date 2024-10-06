@@ -436,11 +436,11 @@ ul.task-list input[type="checkbox"] {
 
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  background-color: var(--global-divider-color);
   font-size: 0.75rem;
 
   .container {
-    color: var(--global-footer-text-color);
+    // color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
     text-align: center;
@@ -511,14 +511,14 @@ footer.sticky-bottom {
 
 .header-bar {
   border-bottom: 1px solid var(--global-divider-color);
-  text-align: center;
-  padding-top: 2rem;
+  text-align: left;
+//   padding-top: 2rem;
   padding-bottom: 3rem;
 
-  h1 {
-    color: var(--global-theme-color);
-    font-size: 5rem;
-  }
+//   h1 {
+//     color: var(--global-theme-color);
+//     font-size: 5rem;
+//   }
 }
 
 .tag-category-list {
