@@ -75,6 +75,28 @@ horizontal: false
 </div>
 
 <div class="picture-container">
+<p>Nihonbashi</p>
+{%
+    include figure.liquid
+    path="/assets/img/pictures/nihonbashi.jpg"
+    sizes = "250px"
+    alt="Nihonbashi street"
+    class="card-img-top"
+%}
+</div>
+
+<div class="picture-container">
+<p>Inside the Takashimaya shopping center</p>
+{%
+    include figure.liquid
+    path="/assets/img/pictures/takashimaya.jpg"
+    sizes = "250px"
+    alt="Takashimaya building view of the street"
+    class="card-img-top"
+%}
+</div>
+
+<div class="picture-container">
 <p>A street in Tokyo</p>
 {%
     include figure.liquid
@@ -158,6 +180,17 @@ horizontal: false
     path="/assets/img/pictures/cyber-gatto.jpg"
     sizes = "250px"
     alt="A cat"
+    class="card-img-top"
+%}
+</div>
+
+<div class="picture-container">
+<p>I met a puppy and decided to sketch him</p>
+{%
+    include figure.liquid
+    path="/assets/img/pictures/puppy.jpg"
+    sizes = "250px"
+    alt="A puppy sketch"
     class="card-img-top"
 %}
 </div>
