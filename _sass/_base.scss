@@ -193,7 +193,8 @@ ul.task-list input[type="checkbox"] {
 // Profile
 
 .profile {
-  width: 100%;
+  width: 400px;
+  max-width: 85%;
 
   .more-info {
     margin-bottom: 5px;
@@ -436,7 +437,7 @@ ul.task-list input[type="checkbox"] {
 
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-divider-color);
+  background-color: var(--global-footer-bg-color);
   font-size: 0.75rem;
 
   .container {
@@ -870,6 +871,44 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post {
+  .post-meta {
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+    margin-bottom: 0;
+  }
+
+  .post-tags {
+    color: var(--global-text-color-light);
+    font-size: 0.875rem;
+    padding-top: 0.25rem;
+    padding-bottom: 1rem;
+
+    a {
+      color: var(--global-text-color-light);
+      text-decoration: none;
+
+      &:hover {
+        color: var(--global-theme-color);
+      }
+    }
+  }
+}
+
+.about {
+  .profile {
+    align-items: center;
+    margin: 50px auto;
+  }
+
+  .profile-text {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  .post-title {
+    text-align: center;
+  }
+
   .post-meta {
     color: var(--global-text-color-light);
     font-size: 0.875rem;

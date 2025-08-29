@@ -14,4 +14,4 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am currently pursuing my Master's degree in Artificial Intelligence at the Indian Institute of Technology, Hyderabad, while working as a Research Assistant under Dr. Srijith P.K. My research interests include Causal Learning, Bayesian Learning, Climate Change and AI for Good. I have previously worked as a software developer and have over 4 years of experience working on web and mobile applications.
+I'm a data scientist and machine learning engineer with an interest in causal learning, Bayesian learning, AI as a tool in mitigating climate change and AI for Good. I completed my Master's degree in at [IIT Hyderabad](https://iith.ac.in/), while working as a research assistant under [Dr. Srijith P.K](https://sites.google.com/view/brainiith/home). I have also worked as a software developer and have built web and mobile apps at scale.

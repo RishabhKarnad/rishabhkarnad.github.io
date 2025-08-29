@@ -1,8 +1,8 @@
 ---
 layout: page
-title: pictures
-permalink: /pictures/
-description: You know, I'm something of a photographer myself
+title: gallery
+permalink: /gallery/
+# description: You know, I'm something of a photographer myself
 nav: true
 nav_order: 10
 horizontal: false
