@@ -171,14 +171,19 @@ external_sources:
   - name: GeekyAnts Tech Blog
     posts:
       - url: https://techblog.geekyants.com/recreating-real-world-terrain-with-react-threejs-and-webgl-shaders-1
+        title: Recreating Real World Terrain with React ThreeJS and WebGL Shaders
         published_date: 2021-02-22
       - url: https://geekyants.com/en-us/blog/brilliant-but-lazy
+        title: Brilliant but Lazy
         published_date: 2020-08-31
       - url: https://geekyants.com/en-us/blog/composition-and-lodash-fp
+        title: Composition and Lodash FP
         published_date: 2020-04-29
       - url: https://geekyants.com/en-us/blog/things-to-keep-in-mind-when-using-lodash
+        title: Things to keep in mind when using Lodash
         published_date: 2020-02-11
       - url: https://geekyants.com/en-us/blog/create-your-own-redux-with-rxjs
+        title: Create your own Redux with RxJS
         published_date: 2020-02-11
 
 # -----------------------------------------------------------------------------
