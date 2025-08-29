@@ -196,6 +196,83 @@ horizontal: false
 </div>
 
 <div class="picture-container">
+<p>Plant</p>
+{%
+    include figure.liquid
+    path="/assets/img/pictures/plant.jpg"
+    sizes = "250px"
+    alt="A plant"
+    class="card-img-top"
+%}
+</div>
+
+<div class="picture-container">
+<p>Hawnk</p>
+{%
+    include figure.liquid
+    path="/assets/img/pictures/hawnk.jpg"
+    sizes = "250px"
+    alt="A goose"
+    class="card-img-top"
+%}
+</div>
+
+<div class="picture-container">
+<p>Pun</p>
+{%
+    include figure.liquid
+    path="/assets/img/pictures/octobans.jpg"
+    sizes = "250px"
+    alt="The octobans looked different on the description page"
+    class="card-img-top"
+%}
+</div>
+
+<div class="picture-container">
+<p>SCP-049</p>
+{%
+    include figure.liquid
+    path="/assets/img/pictures/plague-doctor.jpg"
+    sizes = "250px"
+    alt="A plague doctor"
+    class="card-img-top"
+%}
+</div>
+
+<div class="picture-container">
+<p>Another pun</p>
+{%
+    include figure.liquid
+    path="/assets/img/pictures/carpe-diem.jpg"
+    sizes = "250px"
+    alt="Carp Diem"
+    class="card-img-top"
+%}
+</div>
+
+<div class="picture-container">
+<p>Cats</p>
+{%
+    include figure.liquid
+    path="/assets/img/pictures/cats.jpg"
+    sizes = "250px"
+    alt="Three cats"
+    class="card-img-top"
+%}
+</div>
+
+<div class="picture-container">
+<p>Stoat of the art</p>
+{%
+    include figure.liquid
+    path="/assets/img/pictures/stoat-of-the-art.jpg"
+    sizes = "250px"
+    alt="A stoat painting a picture"
+    class="card-img-top"
+%}
+</div>
+
+<div class="picture-container">
 <p>ACML 2022</p>
 {%
     include figure.liquid
