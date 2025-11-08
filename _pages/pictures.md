@@ -273,6 +273,17 @@ horizontal: false
 </div>
 
 <div class="picture-container">
+<p>Schemus the Shark</p>
+{%
+    include figure.liquid
+    path="/assets/img/pictures/schemus.jpg"
+    sizes = "250px"
+    alt="Schemus the Shark"
+    class="card-img-top"
+%}
+</div>
+
+<div class="picture-container">
 <p>ACML 2022</p>
 {%
     include figure.liquid
