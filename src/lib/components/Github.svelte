@@ -10,3 +10,9 @@
 		/></svg
 	>
 </a>
+
+<style>
+	path {
+		fill: var(--color-text);
+	}
+</style>
