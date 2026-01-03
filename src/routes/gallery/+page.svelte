@@ -1,31 +1,31 @@
 <script>
 	import PageHeading from '$lib/components/PageHeading.svelte';
-	import academia from '$lib/assets/pictures/academia.jpg';
-	import blockB from '$lib/assets/pictures/block-b.jpg';
-	import theInnards from '$lib/assets/pictures/the-innards.jpg';
-	import happinessDontCostADime from '$lib/assets/pictures/happiness-dont-cost-a-dime.jpg';
-	import busyAsACat from '$lib/assets/pictures/busy-as-a-cat.jpg';
-	import fellDownACave from '$lib/assets/pictures/fell-down-a-cave.jpg';
-	import nihonbashi from '$lib/assets/pictures/nihonbashi.jpg';
-	import takashimaya from '$lib/assets/pictures/takashimaya.jpg';
-	import japanStreet from '$lib/assets/pictures/japan-street.jpg';
-	import ramen from '$lib/assets/pictures/ramen.jpg';
-	import cookiesAndCream from '$lib/assets/pictures/cookies-and-cream.jpg';
-	import thatsABigOne from '$lib/assets/pictures/thats-a-big-one.jpg';
-	import dreamliners from '$lib/assets/pictures/dreamliners.jpg';
-	import sevenEightySeven from '$lib/assets/pictures/787.jpg';
-	import wallpaperWorthy from '$lib/assets/pictures/wallpaper-worthy.jpg';
-	import cyberGatto from '$lib/assets/pictures/cyber-gatto.jpg';
-	import puppy from '$lib/assets/pictures/puppy.jpg';
-	import plant from '$lib/assets/pictures/plant.jpg';
-	import hawnk from '$lib/assets/pictures/hawnk.jpg';
-	import octobans from '$lib/assets/pictures/octobans.jpg';
-	import plagueDoctor from '$lib/assets/pictures/plague-doctor.jpg';
-	import carpeDiem from '$lib/assets/pictures/carpe-diem.jpg';
-	import cats from '$lib/assets/pictures/cats.jpg';
-	import stoatOfTheArt from '$lib/assets/pictures/stoat-of-the-art.jpg';
-	import schemus from '$lib/assets/pictures/schemus.jpg';
-	import acml2022 from '$lib/assets/pictures/acml2022.jpeg';
+	import academia from '$lib/assets/thumbnails/academia.jpg';
+	import blockB from '$lib/assets/thumbnails/block-b.jpg';
+	import theInnards from '$lib/assets/thumbnails/the-innards.jpg';
+	import happinessDontCostADime from '$lib/assets/thumbnails/happiness-dont-cost-a-dime.jpg';
+	import busyAsACat from '$lib/assets/thumbnails/busy-as-a-cat.jpg';
+	import fellDownACave from '$lib/assets/thumbnails/fell-down-a-cave.jpg';
+	import nihonbashi from '$lib/assets/thumbnails/nihonbashi.jpg';
+	import takashimaya from '$lib/assets/thumbnails/takashimaya.jpg';
+	import japanStreet from '$lib/assets/thumbnails/japan-street.jpg';
+	import ramen from '$lib/assets/thumbnails/ramen.jpg';
+	import cookiesAndCream from '$lib/assets/thumbnails/cookies-and-cream.jpg';
+	import thatsABigOne from '$lib/assets/thumbnails/thats-a-big-one.jpg';
+	import dreamliners from '$lib/assets/thumbnails/dreamliners.jpg';
+	import sevenEightySeven from '$lib/assets/thumbnails/787.jpg';
+	import wallpaperWorthy from '$lib/assets/thumbnails/wallpaper-worthy.jpg';
+	import cyberGatto from '$lib/assets/thumbnails/cyber-gatto.jpg';
+	import puppy from '$lib/assets/thumbnails/puppy.jpg';
+	import plant from '$lib/assets/thumbnails/plant.jpg';
+	import hawnk from '$lib/assets/thumbnails/hawnk.jpg';
+	import octobans from '$lib/assets/thumbnails/octobans.jpg';
+	import plagueDoctor from '$lib/assets/thumbnails/plague-doctor.jpg';
+	import carpeDiem from '$lib/assets/thumbnails/carpe-diem.jpg';
+	import cats from '$lib/assets/thumbnails/cats.jpg';
+	import stoatOfTheArt from '$lib/assets/thumbnails/stoat-of-the-art.jpg';
+	import schemus from '$lib/assets/thumbnails/schemus.jpg';
+	import acml2022 from '$lib/assets/thumbnails/acml2022.jpeg';
 
 	const images = [
 		{
