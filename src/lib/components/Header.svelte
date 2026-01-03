@@ -2,7 +2,7 @@
 	import DarkModeSwitch from './DarkModeSwitch.svelte';
 
 	const links = [
-		{ name: 'Rishabh Karnad', href: '/' },
+		{ name: 'About', href: '/' },
 		{ name: 'Writings', href: '/writings' },
 		{ name: 'Gallery', href: '/gallery' }
 	];
