@@ -1,4 +1,13 @@
-<footer>© Copyright 2026 Rishabh Karnad. Last updated:</footer>
+<script>
+	const buildTime = new Date(__BUILD_TIME__);
+</script>
+
+<footer>
+	© Copyright {buildTime.getFullYear()} Rishabh Karnad. Last updated: {buildTime.toLocaleDateString(
+		'en-US',
+		{ month: 'long', year: 'numeric', day: 'numeric' }
+	)}
+</footer>
 
 <style>
 	footer {
