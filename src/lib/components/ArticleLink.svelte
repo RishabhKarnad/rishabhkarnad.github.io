@@ -18,7 +18,7 @@
 
 	.article-link-container a {
 		text-decoration: none;
-		color: var(--color-primary);
+		color: var(--color-text);
 		font-size: 1.2em;
 		padding-bottom: 6px;
 	}

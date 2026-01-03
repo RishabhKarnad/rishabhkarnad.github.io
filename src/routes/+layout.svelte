@@ -26,9 +26,21 @@
 		color: var(--color-text);
 	}
 
-	:global(:root) {
+	:root {
 		--color-background: #ffffff;
 		--color-text: #333333;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		:root:not([data-theme='light']) {
+			--color-background: #333333;
+			--color-text: #ffffff;
+		}
+	}
+
+	:root[data-theme='dark'] {
+		--color-background: #333333;
+		--color-text: #ffffff;
 	}
 
 	main {

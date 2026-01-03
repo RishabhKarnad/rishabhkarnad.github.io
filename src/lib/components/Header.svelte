@@ -1,4 +1,6 @@
 <script>
+	import DarkModeSwitch from './DarkModeSwitch.svelte';
+
 	const links = [
 		{ name: 'Rishabh Karnad', href: '/' },
 		{ name: 'Writings', href: '/writings' },
@@ -13,6 +15,7 @@
 				<a href={link.href} class="nav-link">{link.name}</a>
 			{/each}
 		</div>
+		<DarkModeSwitch />
 	</div>
 </nav>
 
