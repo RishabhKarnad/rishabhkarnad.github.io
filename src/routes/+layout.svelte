@@ -1,5 +1,5 @@
 <script>
-	// import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/favicon.svg';
 	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/components/Header.svelte';
 
@@ -8,7 +8,7 @@
 
 <svelte:head>
 	<title>Rishabh Karnad</title>
-	<!-- <link rel="icon" href={favicon} /> -->
+	<link rel="icon" href={favicon} />
 </svelte:head>
 
 <Header />
