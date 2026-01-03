@@ -38,7 +38,6 @@
 
 	p {
 		margin: 20px auto;
-		padding: 0 24px;
 		text-align: justify;
 	}
 

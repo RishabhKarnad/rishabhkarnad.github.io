@@ -12,7 +12,9 @@
 
 <Header />
 <main>
-	{@render children()}
+	<div class="content-container">
+		{@render children()}
+	</div>
 </main>
 <Footer />
 
@@ -30,8 +32,12 @@
 	}
 
 	main {
-		padding-top: 80px;
+		padding: 80px 0px 0 0px;
 		max-width: 768px;
 		margin: 0 auto;
+	}
+
+	main .content-container {
+		padding: 0 24px;
 	}
 </style>
