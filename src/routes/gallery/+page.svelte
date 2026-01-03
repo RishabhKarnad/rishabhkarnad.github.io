@@ -1,135 +1,161 @@
 <script>
 	import PageHeading from '$lib/components/PageHeading.svelte';
+	import academia from '$lib/assets/pictures/academia.jpg';
+	import blockB from '$lib/assets/pictures/block-b.jpg';
+	import theInnards from '$lib/assets/pictures/the-innards.jpg';
+	import happinessDontCostADime from '$lib/assets/pictures/happiness-dont-cost-a-dime.jpg';
+	import busyAsACat from '$lib/assets/pictures/busy-as-a-cat.jpg';
+	import fellDownACave from '$lib/assets/pictures/fell-down-a-cave.jpg';
+	import nihonbashi from '$lib/assets/pictures/nihonbashi.jpg';
+	import takashimaya from '$lib/assets/pictures/takashimaya.jpg';
+	import japanStreet from '$lib/assets/pictures/japan-street.jpg';
+	import ramen from '$lib/assets/pictures/ramen.jpg';
+	import cookiesAndCream from '$lib/assets/pictures/cookies-and-cream.jpg';
+	import thatsABigOne from '$lib/assets/pictures/thats-a-big-one.jpg';
+	import dreamliners from '$lib/assets/pictures/dreamliners.jpg';
+	import sevenEightySeven from '$lib/assets/pictures/787.jpg';
+	import wallpaperWorthy from '$lib/assets/pictures/wallpaper-worthy.jpg';
+	import cyberGatto from '$lib/assets/pictures/cyber-gatto.jpg';
+	import puppy from '$lib/assets/pictures/puppy.jpg';
+	import plant from '$lib/assets/pictures/plant.jpg';
+	import hawnk from '$lib/assets/pictures/hawnk.jpg';
+	import octobans from '$lib/assets/pictures/octobans.jpg';
+	import plagueDoctor from '$lib/assets/pictures/plague-doctor.jpg';
+	import carpeDiem from '$lib/assets/pictures/carpe-diem.jpg';
+	import cats from '$lib/assets/pictures/cats.jpg';
+	import stoatOfTheArt from '$lib/assets/pictures/stoat-of-the-art.jpg';
+	import schemus from '$lib/assets/pictures/schemus.jpg';
+	import acml2022 from '$lib/assets/pictures/acml2022.jpeg';
 
 	const images = [
 		{
 			title: "IIT Hyderabad's main quadrangle",
-			src: 'src/lib/assets/pictures/academia.jpg',
+			src: academia,
 			alt: 'IITH main quad'
 		},
 		{
 			title: 'Academic block B as seen from the terrace of the AI center',
-			src: 'src/lib/assets/pictures/block-b.jpg',
+			src: blockB,
 			alt: 'IITH Block B'
 		},
 		{
 			title: 'Academic block B - the innards',
-			src: 'src/lib/assets/pictures/the-innards.jpg',
+			src: theInnards,
 			alt: 'IITH Block B inside view'
 		},
 		{
 			title: 'Peace and tranquility',
-			src: 'src/lib/assets/pictures/happiness-dont-cost-a-dime.jpg',
+			src: happinessDontCostADime,
 			alt: 'IITH sunset'
 		},
 		{
 			title: "I've been busier than a cat",
-			src: 'src/lib/assets/pictures/busy-as-a-cat.jpg',
+			src: busyAsACat,
 			alt: 'Somewhere near Vizag'
 		},
 		{
 			title: "Help, I've fallen down a cave",
-			src: 'src/lib/assets/pictures/fell-down-a-cave.jpg',
+			src: fellDownACave,
 			alt: 'Somewhere inside a cave'
 		},
 		{
 			title: 'Nihonbashi',
-			src: 'src/lib/assets/pictures/nihonbashi.jpg',
+			src: nihonbashi,
 			alt: 'Nihonbashi street'
 		},
 		{
 			title: 'Inside the Takashimaya shopping center',
-			src: 'src/lib/assets/pictures/takashimaya.jpg',
+			src: takashimaya,
 			alt: 'Takashimaya building view of the street'
 		},
 		{
 			title: 'A street in Tokyo',
-			src: 'src/lib/assets/pictures/japan-street.jpg',
+			src: japanStreet,
 			alt: 'A street in Tokyo'
 		},
 		{
 			title: 'Liminal spaces',
-			src: 'src/lib/assets/pictures/ramen.jpg',
+			src: ramen,
 			alt: 'Another street in Tokyo'
 		},
 		{
 			title: 'Calm as cookies and cream',
-			src: 'src/lib/assets/pictures/cookies-and-cream.jpg',
+			src: cookiesAndCream,
 			alt: 'Somewhere above Hyderabad'
 		},
 		{
 			title: "Woah, that's a big one!",
-			src: 'src/lib/assets/pictures/thats-a-big-one.jpg',
+			src: thatsABigOne,
 			alt: 'Airbus A380 at Narita'
 		},
 		{
 			title: 'A herd of grazing Dreamliners',
-			src: 'src/lib/assets/pictures/dreamliners.jpg',
+			src: dreamliners,
 			alt: 'Boeing 787s at Narita'
 		},
 		{
 			title: "She's a beaut",
-			src: 'src/lib/assets/pictures/787.jpg',
+			src: sevenEightySeven,
 			alt: 'Boeing 787 at Narita'
 		},
 		{
 			title: 'Definitely wallpaper worthy',
-			src: 'src/lib/assets/pictures/wallpaper-worthy.jpg',
+			src: wallpaperWorthy,
 			alt: 'Mumbai airport arrivals'
 		},
 		{
 			title: 'Cyber-gatto',
-			src: 'src/lib/assets/pictures/cyber-gatto.jpg',
+			src: cyberGatto,
 			alt: 'A cat'
 		},
 		{
 			title: 'I met a puppy and decided to sketch him',
-			src: 'src/lib/assets/pictures/puppy.jpg',
+			src: puppy,
 			alt: 'A puppy sketch'
 		},
 		{
 			title: 'Plant',
-			src: 'src/lib/assets/pictures/plant.jpg',
+			src: plant,
 			alt: 'A plant'
 		},
 		{
 			title: 'Hawnk',
-			src: 'src/lib/assets/pictures/hawnk.jpg',
+			src: hawnk,
 			alt: 'A goose'
 		},
 		{
 			title: 'Pun',
-			src: 'src/lib/assets/pictures/octobans.jpg',
+			src: octobans,
 			alt: 'The octobans looked different on the description page'
 		},
 		{
 			title: 'SCP-049',
-			src: 'src/lib/assets/pictures/plague-doctor.jpg',
+			src: plagueDoctor,
 			alt: 'A plague doctor'
 		},
 		{
 			title: 'Another pun',
-			src: 'src/lib/assets/pictures/carpe-diem.jpg',
+			src: carpeDiem,
 			alt: 'Carp Diem'
 		},
 		{
 			title: 'Cats',
-			src: 'src/lib/assets/pictures/cats.jpg',
+			src: cats,
 			alt: 'Three cats'
 		},
 		{
 			title: 'Stoat of the art',
-			src: 'src/lib/assets/pictures/stoat-of-the-art.jpg',
+			src: stoatOfTheArt,
 			alt: 'A stoat painting a picture'
 		},
 		{
 			title: 'Schemus the Shark',
-			src: 'src/lib/assets/pictures/schemus.jpg',
+			src: schemus,
 			alt: 'Schemus the Shark'
 		},
 		{
 			title: 'ACML 2022',
-			src: 'src/lib/assets/pictures/acml2022.jpeg',
+			src: acml2022,
 			alt: 'ACML 2022'
 		}
 	];

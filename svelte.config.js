@@ -3,9 +3,17 @@ import adapter from '@sveltejs/adapter-static';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	kit: { adapter: adapter() },
-	preprocess: [mdsvex()],
-	extensions: ['.svelte', '.svx']
+    kit: {
+        adapter: adapter({
+            pages: 'build',
+            assets: 'build',
+            fallback: undefined,
+            precompress: false,
+            strict: true
+        })
+    },
+    preprocess: [mdsvex()],
+    extensions: ['.svelte', '.svx']
 };
 
 export default config;
