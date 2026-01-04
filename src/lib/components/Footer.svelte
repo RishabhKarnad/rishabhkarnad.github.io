@@ -19,5 +19,6 @@
 		font-size: 12px;
 		color: var(--color-text);
 		background-color: var(--color-background);
+		z-index: 10;
 	}
 </style>
